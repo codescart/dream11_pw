@@ -1,0 +1,51 @@
+name: dream11_pw
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.2.1
+  intl_phone_field: ^3.2.0
+  flutter_share: ^2.0.0
+  pinput: ^3.0.1
+  provider:
+  intl: ^0.18.1
+  firebase_core: ^2.19.0
+  firebase_auth: ^4.11.1
+  cloud_firestore: ^4.11.0
+  percent_indicator: ^4.2.3
+  step_progress_indicator: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  another_flushbar: ^1.12.30
+  image_picker: ^1.0.4
+  fluttertoast: ^8.2.2
+  sliding_up_panel: ^2.0.0+1
+  dotted_line: ^3.2.2
+  upi_india: ^3.0.1
+  dotted_border: ^2.1.0
+  flutter_widget_from_html: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/gif/
